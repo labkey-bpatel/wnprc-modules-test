@@ -140,7 +140,7 @@
             </column>
         </columns>
     </table>
-    <table tableName="invoiceRuns" tableDbType="TABLE" useColumnOrder="true">
+    <table tableName="leaseFeeDefinition" tableDbType="TABLE" useColumnOrder="true">
         <javaCustomizer class="org.labkey.ehr.table.DefaultEHRCustomizer" />
         <auditLogging>DETAILED</auditLogging>
         <tableTitle>Replacement Fee Definition</tableTitle>
