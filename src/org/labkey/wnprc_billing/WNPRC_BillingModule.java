@@ -77,7 +77,7 @@ public class WNPRC_BillingModule extends ExtendedSimpleModule
     protected void init()
     {
         addController(WNPRC_BillingController.NAME, WNPRC_BillingController.class);
-        ServiceRegistry.get().registerService(InvoicedItemsProcessingService.class, InvoicedItemsProcessingServiceImpl.INSTANCE);
+        ServiceRegistry.get().registerService(InvoicedItemsProcessingService.class, new InvoicedItemsProcessingServiceImpl());
     }
 
     @Override
